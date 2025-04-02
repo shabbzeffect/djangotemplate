@@ -43,6 +43,9 @@ print(students)
 
 ✅ Fetch a Single Record
 student = Student.objects.get(id=1)
+
+
+python manage.py createsuperuser
 print(student.name, student.age)
 📌 Retrieves the student whose id = 1.
 

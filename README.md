@@ -8,4 +8,4 @@ pip install Django
 django-admin startproject practice
 cd practice
 python manage.py runserver
-
+django-admin startapp myapp
